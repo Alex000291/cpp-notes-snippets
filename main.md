@@ -108,6 +108,14 @@
 
 ---
 
+### 代码片段
+- [无锁 SPSC 队列](code/lfqueue.h)
+- [内存池 + placement new](code/mempool.h)
+- [线程创建 + CPU 亲和性](code/threading.h)
+- [异步日志](code/logging.h)
+- [Socket 性能优化集合](code/sockets.h)
+- [Edge-triggered Epoll TCP 服务器](code/tcp_server.h)
+
 ## auto
 ```cpp
 auto s = "hello"s;    // std::string（需 using namespace
